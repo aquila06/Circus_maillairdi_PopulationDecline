@@ -1,5 +1,5 @@
 # Circus_maillairdi_PopulationDecline
-This is a repository aimed at storing the scripts and data of a manuscript entitled "Long-term population monitoring reveals an alarming decline in the endangered endemic Reunion Harrier Circus maillardi" by 
+This is a repository aimed at storing the scripts and data of a manuscript entitled "Long-term population monitoring reveals an alarming decline in the endangered endemic Reunion Harrier Circus maillardi"  
 
 
 
