@@ -12,7 +12,7 @@ library(viridis)
 library(ggridges)
 require(xtable)
 
-setwd("P:\\MS\\MaillardH_Comptages\\Submission_bioRxiv\\")
+setwd("path/to/dir")
 
 
 #The place to store the Figures, and where data are stored
@@ -340,5 +340,6 @@ plot_sp_abraw<-ggplot(df_plot_pres) +  #geom_sf(data=lim_reu, colour="black", fi
 						legend.title.align = 0.5,
 					 legend.box.just = "center",
 					 legend.box = "vertical")#, label.vjust = 0.5
+
 
 ggsave(paste0(dirout, "Map_max_abund_per_survey.jpeg"), plot=plot_sp_abraw , units="cm",  width=24, height=10, dpi="retina" )
