@@ -13,7 +13,6 @@ require(ggridges)
 
 #Set the working directory
 #setwd("/Path/to/the/folder")
-setwd("P:\\MS\\MaillardH_Comptages\\Submission_bioRxiv\\")
 dirout<-if(dir.exists()"./CodeOutputs/"
 
 
@@ -143,3 +142,4 @@ sum(residuals(m_full04, type = "pearson")^2) / df.residual(m_full04)
 
 #Save a RData for later (or to generate the figures) (~200Mo !!!)		
 save.image(paste0(dirout, "ModelsRun_CircusMaillardi.RData"))
+
