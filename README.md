@@ -32,7 +32,7 @@ The *Script_MS_run_models_v1.r* file will read the necessary files, run the diff
 * **coords_areas.csv**, with semi-colon as separator, with 3 columns, allowing to build the limits of the study area (coastlines of la Réunion Island) as well as the 2 areas used in the manuscript to compute regional trends (windward and leeward parts of the island):
   * X,Y (numeric): coordinates, with projection EPSG:2975 (RGR92 / UTMzone 40S)
   * Region (integer): with 1 and 2, respectively corresponding to the West and East part of the island
-* **reu_mnt_tiles_res100m.tif**, a raster image wich correpsonds to the reasmpling of the IGN BD alti data set (originally with a 5m. resolution) at a 100m. resolution, with EPSG:2975 projection (RGR92 / UTMzone 40S)
+* **reu_mnt_tiles_res100m.tif**, a raster image wich corresponds to the reasmpling of the IGN BD alti data set (originally with a 5m. resolution) at a 100m. resolution, with EPSG:2975 projection (RGR92 / UTMzone 40S)
 
 
 
