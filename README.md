@@ -24,7 +24,11 @@ The *Script_MS_run_models_v1.r* file will read the necessary files, run the diff
   * long, lat (numeric): coordinates of observation point, with EPSG:4326 coordinate system (WGS84)
   * surveyF (character): the survey column expressed as text
   * id_newF (character): the ID of the observation points, with points sampled during different surveys sharing the same identifier.
-  * log_length (numeric): 
+  * log_length (numeric): log transformed values of tje length column
+  * yearF (character): 
+  * jd (numeric):
+  * jd_s (numeric):
+  * survey_name (character): the corresponding survey period
 * **coords_areas.csv**, with semi-colon as separator, with 3 columns, allowing to build the limits of the study area (coastlines of la Réunion Island) as well as the 2 areas used in the manuscript to compute regional trends (windward and leeward parts of the island):
   * X,Y (numeric): coordinates, with projection EPSG:2975 (RGR92 / UTMzone 40S)
   * Region (integer): with 1 and 2, respectively corresponding to the West and East part of the island
