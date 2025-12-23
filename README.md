@@ -14,7 +14,7 @@ This is a repository aimed at storing the scripts and data of a manuscript entit
 ## Use
 The *Script_MS_run_models_v1.r* file will read the necessary files, run the different models and create the figures that are included in the manuscript (both in the main text and in supplementary material), creating necessayr folders when needed, thanks to relative paths
 
-## A Data folder with 3 data files:
+## A *Data* folder with 3 data files:
 * **df_pts_full.csv**, with semi-colon as separator, a text file containing the following relevant columns:
   * date (character): in a DD/MM/YYYY format (correpsonding to the concatenation of the 3 following columns, day, month and year)
   * survey (integer): the number of the considered survey 1 = 1998-200, 2 = 2009-2010, 3 = 2017-2019
