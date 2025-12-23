@@ -31,8 +31,8 @@ This is a repository aimed at storing the scripts and data of a manuscript entit
   * Region (integer): with 1 and 2, respectively corresponding to the West and East part of the island
 * **reu_mnt_tiles_res100m.tif**, a raster image wich corresponds to the reasmpling of the IGN BD alti data set (originally with a 5m. resolution) at a 100m. resolution, with EPSG:2975 projection (RGR92 / UTMzone 40S)
 
-## Use
-The *Script_MS_run_models_v1.r* file will read the necessary files, run the different models and create the figures that are included in the manuscript (both in the main text and in supplementary material), creating necessayr folders when needed, thanks to relative paths
+# Use
+The *Script_MS_run_models_v1.r* file will read the necessary files, run the different models and create the figures that are included in the manuscript (both in the main text and in supplementary material), creating necessary folders when needed, thanks to relative paths
 
 # References
 Knape, J. (2016). Decomposing trends in Swedish bird populations using generalized additive mixed models. Journal of Applied Ecology, 53, 1852–1861.
