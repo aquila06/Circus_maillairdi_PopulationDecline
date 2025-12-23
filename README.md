@@ -4,7 +4,7 @@ This is a repository aimed at storing the scripts and data of a manuscript entit
 
 # Folders and files overview
 
-## a *Scripts* folder with 3 R scripts files used to load, format, analyse the data and produce the figures of the asssociated manuscript
+## A *Scripts* folder with 3 R scripts files used to load, format, analyse the data and produce the figures of the asssociated manuscript
 *  **Script_MS_run_models_v1.r**, an R script to format the data, run the models, and generate the figures
 *  **compute_spatio_temp_trends_gam_vcov.r**, which contains  2 home-made functions written to compute mean trend and 95% CI, (adpaated from Wood 2017 and Knape 2016), called by the :
      *  compute_distri which computes temporal variations of an abundance index values based on a mgcv::gam() model, a data.frame containing variables for predictions, a time variable and possibily a grouping factor (such as a pixel index to spatialise predictions on a grid. This fuction return a list of predicted values of abundance for each level of the grouping factor, at the different values specified for the time variable
@@ -14,7 +14,7 @@ This is a repository aimed at storing the scripts and data of a manuscript entit
 ## Use
 The *Script_MS_run_models_v1.r* file will read the necessary files, run the different models and create the figures that are included in the manuscript (both in the main text and in supplementary material), creating necessayr folders when needed, thanks to relative paths
 
-## a Data folder with 3 data files:
+## A Data folder with 3 data files:
 * **df_pts_full.csv**, with semi-colon as separator, a text file containing the following relevant columns:
   * date (character): in a DD/MM/YYYY format (correpsonding to the concatenation of the 3 following columns, day, month and year)
   * survey (integer): the number of the considered survey 1 = 1998-200, 2 = 2009-2010, 3 = 2017-2019
