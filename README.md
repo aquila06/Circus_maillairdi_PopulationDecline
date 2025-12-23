@@ -2,7 +2,7 @@
 This is a repository aimed at storing the scripts and data of a manuscript entitled "Long-term population monitoring reveals an alarming decline in the endangered endemic Reunion Harrier *Circus maillardi*"   [preprint on bioRxiv](https://www.biorxiv.org/content/10.1101/2025.11.07.687144)
 
 
-# Folder and file overview
+# Folders and files overview
 
 ## a *Scripts* folder with 3 R scripts files used to load, format, analyse the data and produce the figures of the asssociated manuscript
 *  **Script_MS_run_models_v1.r**, an R script to format the data, run the models, and generate the figures
