@@ -503,10 +503,17 @@ df_lambda<-data.frame(Area= rep(c("Island", "East", "West"), 3),
 df_lambda$Yearly_pc<-(df_lambda$Lambda-1)*100
 colnames(df_lambda)<-c("Area", "Period", "Yearly lambda", "Yearly %")
 
-#export as a latex table
-df_lambda %>%
-flextable::as_flextable(.) %>%
-	flextable::save_as_image(., paste0(dirout, "Lambdas.png"), expand = 10, res = 300)
+tab <- kable(df_lambda,
+             format    = "latex",
+             booktabs  = TRUE,
+             digits    = c(NA, NA, 3, 2),
+             col.names = c("Area", "Period", "Yearly $\\lambda$", "Yearly (\\%)"),
+             escape    = FALSE,
+             caption   = "Annual population growth rate by area and period.",
+             label     = "tab:lambda",
+             align     = c("l", "l", "r", "r"))
+
+writeLines(tab, paste0("./CodeOutputs/table_lambda.tex"))
 
 
 
