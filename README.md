@@ -38,5 +38,5 @@ This folder contains the ModelsRun_CircusMaillardi.RData file, which gathers the
 The *Script_MS_run_models_v2.r* file will read the necessary files, run the different models and create the figures that are included in the manuscript (both in the main text and in supplementary material), creating necessary folders when needed, thanks to relative paths
 
 # References
-Knape, J. (2016). Decomposing trends in Swedish bird populations using generalized additive mixed models. Journal of Applied Ecology, 53, 1852–1861.
-Wood, S. (2017). Generalized additive models: an introduction with R. 2nd edn. Chapman & Hall/CRC.
+* Knape, J. (2016). Decomposing trends in Swedish bird populations using generalized additive mixed models. Journal of Applied Ecology, 53, 1852–1861.
+* Wood, S. (2017). Generalized additive models: an introduction with R. 2nd edn. Chapman & Hall/CRC.
