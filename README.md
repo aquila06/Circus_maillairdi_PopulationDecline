@@ -31,6 +31,9 @@ This is a repository aimed at storing the scripts and data of a manuscript entit
   * Region (integer): with 1 and 2, respectively corresponding to the West and East part of the island
 * **reu_mnt_tiles_res100m.tif**, a raster image wich corresponds to the reasmpling of the IGN BD alti data set (originally with a 5m. resolution) at a 100m. resolution, with EPSG:2975 projection (RGR92 / UTMzone 40S)
 
+## A ProcessedData folder
+This folder contains the ModelsRun_CircusMaillardi.RData file, which gathers the models that take quite long to run (mfull_01, mfull_02, etc). 
+
 # Use
 The *Script_MS_run_models_v2.r* file will read the necessary files, run the different models and create the figures that are included in the manuscript (both in the main text and in supplementary material), creating necessary folders when needed, thanks to relative paths
 
